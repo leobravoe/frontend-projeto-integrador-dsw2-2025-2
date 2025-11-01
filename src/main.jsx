@@ -16,12 +16,13 @@ import "bootstrap/dist/js/bootstrap.min.js"
 
 const router = createBrowserRouter([
     { path: "/", element: <App /> },
+    { path: "/sobre", element: <Sobre /> },
+    { path: "/contato", element: <Contato /> },
+    
     { path: "/chamados", element: <ChamadosIndex /> },
     { path: "/chamados/create", element: <ChamadosCreate /> },
     { path: "/chamados/:id", element: <ChamadosShow /> },
     { path: "/chamados/:id/edit", element: <ChamadosEdit /> },
-    { path: "/sobre", element: <Sobre /> },
-    { path: "/contato", element: <Contato /> },
 ]);
 
 createRoot(document.getElementById("root")).render(
