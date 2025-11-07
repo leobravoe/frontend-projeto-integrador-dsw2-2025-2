@@ -26,10 +26,12 @@ const ChamadosIndex = () => {
     return (
         <div>
             <Navbar />
-            <h3>ChamadosIndex</h3>
-            <Link to="/chamados/create" className='btn btn-primary'>Criar Chamado</Link>
-            <div className='row m-2'>
-                {chamados.map(chamado => <Chamado key={chamado.id} chamado={chamado} />)}
+            <div className='m-2'>
+                <h3 className='my-2'>ChamadosIndex.jsx</h3>
+                <Link to="/chamados/create" className='btn btn-primary mb-2'>Criar Chamado</Link>
+                <div className='row m-0'>
+                    {chamados.map(chamado => <Chamado key={chamado.id} chamado={chamado} />)}
+                </div>
             </div>
         </div>
     )

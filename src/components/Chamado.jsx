@@ -12,7 +12,7 @@ const Chamado = ({ chamado }) => {
                 </div>
                 <div class="card-footer text-body-secondary">
                     <button className="btn btn-secondary">Ativo</button>
-                    <button className='btn btn-info'>Editar</button>
+                    <button className='btn btn-info mx-2'>Editar</button>
                     <button className='btn btn-danger'>Excluir</button>
                 </div>
             </div>
