@@ -3,11 +3,11 @@ import React from 'react'
 const Chamado = ({ chamado }) => {
     return (
         <div className='col-md-6 col-lg-4 p-0'>
-            <div class="card mb-2 me-2">
-                <div class="card-header">
+            <div className="card mb-2 me-2">
+                <div className="card-header">
                     <strong>{chamado.id}</strong>
                 </div>
-                <div class="card-body">
+                <div className="card-body">
                     <p>{chamado.texto}</p>
                 </div>
                 <div class="card-footer text-body-secondary">
